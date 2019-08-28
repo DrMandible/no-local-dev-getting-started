@@ -10,12 +10,12 @@ get "/" do
 end
 
 
-class LeaseMods < ActiveRecord::Base
+class Deal < ActiveRecord::Base
   self.table_name = 'salesforce.lease_modification__c'
 end
 
-get "/leasemods" do
-  @leasemods = LeaseMods.all
+get "/deals" do
+  @deals = Deal.all
   erb :index
 end
 
