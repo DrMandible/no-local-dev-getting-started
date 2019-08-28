@@ -11,7 +11,7 @@ end
 
 
 class LeaseMods < ActiveRecord::Base
-  self.table_name = 'salesforce.Lease_Modification__c'
+  self.table_name = 'salesforce.lease_modification__c'
 end
 
 get "/leasemods" do
