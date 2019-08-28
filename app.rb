@@ -11,7 +11,7 @@ end
 
 
 class Deal < ActiveRecord::Base
-  self.table_name = 'salesforce.lease_modification__c'
+  self.table_name = 'salesforce.Lease_Modification__c'
 end
 
 get "/deals" do
